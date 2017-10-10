@@ -25,14 +25,14 @@ const app = new Koa();
 app.use(basicAuth({
   user: 'username', // required
   pass: 'password', // required
-  realm: 'Authorization' // optional, defaults to 'Authorization required'
+  realm: 'Authorization', // optional, defaults to 'Authorization required'
 }));
 
 // Protected response
 app.use(async (ctx) => {
   ctx.status(200);
-  ctx.body = 'Protected',
-})
+  ctx.body = 'Protected';
+});
 
 app.listen(3000);
 ```
