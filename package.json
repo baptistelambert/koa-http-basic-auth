@@ -4,10 +4,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "basic-auth": "^2.0.0"
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "koa": "^2.3.0",
+    "supertest": "^3.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
