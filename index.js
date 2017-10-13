@@ -21,7 +21,7 @@ const basicAuthMiddleware = (opts = {}) => {
       return next()
     }
 
-    return unauthorized(ctx)
+    return unauthorized(ctx, opts.realm)
   }
 }
 
