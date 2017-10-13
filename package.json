@@ -1,7 +1,7 @@
 {
   "name": "koa-http-basic-auth",
   "description": "HTTP basic auth middleware for koa.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "author": "baptistelambert <bapthf2@gmail.com>",
