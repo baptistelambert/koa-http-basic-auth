@@ -1,4 +1,4 @@
-# koa-http-basic-auth
+# koa-http-basic-auth [![Build Status](https://travis-ci.org/baptistelambert/koa-http-basic-auth.svg?branch=master)](https://travis-ci.org/baptistelambert/koa-http-basic-auth)
 
 ## Installation
 
