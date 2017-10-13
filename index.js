@@ -6,6 +6,17 @@ const unauthorized = (ctx, realm = 'Authorization required') => {
   ctx.status = 401
 }
 
+/**
+ * Itinialize basic auth middleware with given `opts`:
+ *
+ * - `user` username for basic authentication, required
+ * - `pass` password for basic authentication, required
+ * - `realm` realm for scope of protection indication, optional
+ *
+ * @param {Object} opts 
+ * @return {Function}
+ * @api public
+ */
 const basicAuthMiddleware = (opts = {}) => {
   assert(opts.user, 'user option required')
   assert(opts.pass, 'pass option required')
