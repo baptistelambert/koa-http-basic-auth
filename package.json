@@ -10,7 +10,8 @@
     "url": "git+https://github.com/baptistelambert/koa-http-basic-auth.git"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:ci": "jest --forceExit"
   },
   "dependencies": {
     "basic-auth": "^2.0.0"
